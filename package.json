@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.11"
+  },
+  "scripts": {
+    "test": "mocha --exit --recursive",
+    "robot": "node ./test/robot.js"
+  }
+}
